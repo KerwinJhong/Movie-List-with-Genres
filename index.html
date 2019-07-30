@@ -15,17 +15,15 @@
 </head>
 
 <body>
-    <div class="container-fluid clearfix" style="width: 95vw;">
-        <div class="row">
-            <div class="col-md-2 p-0 btn-group-toggle" id="genres" data-toggle="buttons" style="height: 100vh;">
-                <!-- buttons -->
-            </div>
-            <div class="col-md card-deck" id="movieList">
-                <!-- movies -->
-            </div>
+    <div class="container-fluid" style="width: 95vw;">
+        <div class="col-md-2 overflow-auto p-0 btn-group-toggle" id="genres" data-toggle="buttons" style="height: 100vh;position: fixed;">
+            <!-- buttons -->
+        </div>
+        <div class="card-deck float-md-right" style="width: 77vw;" id="movieList">
+            <!-- movies -->
         </div>
     </div>
-    <script src="index.js"></script>
+    <script src="/index.js"></script>
 </body>
 
 </html>
